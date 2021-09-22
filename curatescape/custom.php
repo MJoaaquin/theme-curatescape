@@ -1755,12 +1755,7 @@ function mh_tour_preview($s){
 	$html.=  '<article>';
 	$html.=  '<h3 class="tour-result-title"><a href="'.record_url($record, 'show').'">'.($s['title'] ? $s['title'] : '[Unknown]').'</a></h3>';
 	$html.=  '<div class="tour-meta-browse browse-meta-top byline">';
-	$html.= '<span class="total">'.mh_tour_total_items($record).' '.__('Locations').'</span> ~ ';
-	if(tour('Credits') ){
-		$html.=  __('%1s curated by %2s', mh_tour_label('singular'),tour('Credits') );
-	}elseif(get_theme_option('show_author') == true){
-		$html.=  __('%1s curated by The %2s Team',mh_tour_label('singular'),option('site_title'));
-	}		
+	$html.= '<span class="total">'.mh_tour_total_items($record).' '.__('Locations').'</span> ';
 	$html.=  '</div>';
 	$html.=  ($text=strip_tags(html_entity_decode(tour('Description')))) ? '<span class="tour-result-snippet">'.snippet($text,0,300).'</span>' : null;
 	if(get_theme_option('show_tour_item_thumbs') == true){
