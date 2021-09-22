@@ -1842,7 +1842,7 @@ function mh_display_homepage_tours($num=5, $scope='featured'){
 			
 		}
 		if(count($public)>1){
-			$html .= '<p class="view-more-link"><a class="button" href="'.WEB_ROOT.'/tours/browse/">'.__('Browse all <span>%1$s %2$s</span>', count($public), mh_tour_label('plural')).'</a></p>';
+			$html .= '<p class="view-more-link"><a class="button" href="'.WEB_ROOT.'/tours/browse/">'.__('Ver las <span>%1$s %2$s</span>', count($public), mh_tour_label('plural')).'</a></p>';
 		}	
 	}else{
 		$html .= '<p>'.__('No tours are available. Publish some now.').'</p>';
