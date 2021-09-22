@@ -2170,7 +2170,7 @@ function mh_random_or_recent($mode='recent',$num=6){
 	set_loop_records('items',$items);
 	$html='<section id="random-recent">';
 	$labelcount='<span>'.total_records('Item').' '.mh_item_label('plural').'</span>';
-	$html.='<h3 class="result-type-header">'.ucfirst($mode).' '.mh_item_label('plural').'</h3>';
+	$html.='<h3 class="result-type-header"> Historias Recientes </h3>';
 
 	if (has_loop_records('items')){
 		$html.='<div class="browse-items flex">';
