@@ -203,7 +203,7 @@ function mh_the_logo(){
 function random_item_link($text=null,$class='show',$hasImage=true){
 
 	if(!$text){
-		$text= __('View a Random %s', mh_item_label('singular'));
+		$text= 'Ver una Historia Aleatoria';
 	}
 	$randitems = get_records('Item', array( 'sort_field' => 'random', 'hasImage' => $hasImage), 1);
 
