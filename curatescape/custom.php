@@ -1813,7 +1813,7 @@ function mh_display_homepage_tours($num=5, $scope='featured'){
 	$customheader=get_theme_option('tour_header');
 	if($scope=='random'){
 		shuffle($items);
-		$heading = $customheader ? $customheader : __('Take a').' '.mh_tour_label('singular');
+		$heading = $customheader ? $customheader : __('Tomar una').' '.mh_tour_label('singular');
 	}else{
 		$heading = $customheader ? $customheader : ucfirst($scope).' '.mh_tour_label('plural');
 	}
