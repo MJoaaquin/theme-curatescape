@@ -1153,7 +1153,7 @@ function mh_related_links(){
 */
 function mh_the_byline($itemObj='item',$include_sponsor=false){
 	if ((get_theme_option('show_author') == true)){
-		$html='<div class="byline">'.__('By').' ';
+		$html='<div class="byline">'.__('Por').' ';
 
 		if(metadata($itemObj,array('Dublin Core', 'Creator'))){
 			$authors=metadata($itemObj,array('Dublin Core', 'Creator'), array('all'=>true));
