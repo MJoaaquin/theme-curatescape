@@ -1921,7 +1921,7 @@ function mh_home_about($length=800,$html=null){
 			$html .= '<div class="about-main"><p>';
 				$html .= substr(mh_about(),0,$length);
 				$html .= ($length < strlen(mh_about())) ? '... ' : null;
-			$html .= '</p><a class="button u-full-width" href="'.url('about').'">'.__('Read more About Us').'</a></div>';
+			$html .= '</p><a class="button u-full-width" href="'.url('about').'">'.__('Leer más sobre Nosotros').'</a></div>';
 	
 		$html .= '</article>';
 	$html .= '</div>';
