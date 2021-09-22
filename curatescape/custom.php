@@ -2201,7 +2201,7 @@ function mh_random_or_recent($mode='recent',$num=6){
 		}
 		
 		$html.='</div>';
-		$html.='<p class="view-more-link"><a class="button" href="/items/browse/">'.__('Browse all %s',$labelcount).'</a></p>';
+		$html.='<p class="view-more-link"><a class="button" href="/items/browse/">'.__('Ver las %s',$labelcount).'</a></p>';
 		
 		
 	}else{
