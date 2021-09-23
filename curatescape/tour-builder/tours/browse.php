@@ -41,7 +41,7 @@ echo head( array(
 					$html .= '<article class="item-result '.(get_theme_option('fetch_tour_images') ? 'fetch-tour-image' : null).'" data-tour-id="'.tour('id').'">';
 					$html .= get_theme_option('fetch_tour_images') ? '<div class="tour-image-container"></div>' : null;
 					$html .= '<div>';
-					$html .= '<h3 class="home-tour-title"><a href="' . WEB_ROOT . '/tours/show/'. tour('id').'">' . tour('title').'</a></h3><span class="total">'.__('%s Locations',mh_tour_total_items($tour)).'</span>'
+					$html .= '<h3 class="home-tour-title"><a href="' . WEB_ROOT . '/tours/show/'. tour('id').'">' . tour('title').'</a></h3><span class="total">'.__('%s Locations',mh_tour_total_items($tour)).'</span>';
 					$html .= '<div class="item-description">'.snippet($tourdesc,0,250).'</div>'; 
 					$html .= '</div>';
 					$html .= '</article>';		
