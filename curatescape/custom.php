@@ -786,7 +786,7 @@ function mh_map_actions($item=null,$tour=null,$collection=null,$saddr='current',
 		<!-- Directions link -->
 		<?php if( $showlink && $coords && ($item || $tour) ):?>
 				<a onclick="jQuery(\'body\').removeClass(\'fullscreen-map\')" class="directions" title="<?php echo __('Get Directions on Google Maps');?>" target="_blank" rel="noopener" href="https://maps.google.com/maps?saddr=<?php echo $saddr;?>+location&daddr=<?php echo $street_address ? urlencode(strip_tags($street_address)) : $coords;?>">
-				<i class="fa fa-lg fa-external-link-square" aria-hidden="true"></i> <span class="label"><?php echo __('Get Directions');?></span>
+				<i class="fa fa-lg fa-external-link-square" aria-hidden="true"></i> <span class="label"><?php echo __('Obtener direcciones');?></span>
 		</a>
 		<?php endif;?>		
 	
