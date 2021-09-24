@@ -1214,7 +1214,7 @@ function mh_post_date(){
 		$a=format_date(metadata('item', 'added'));
 		$m=format_date(metadata('item', 'modified'));	
 	
-		return '<div class="item-post-date"><em>'.__('Published on %s.', $a ).( ($a!==$m) ? ' '.__('Last updated on %s.', $m ) : null ).'</em></div>';	
+		return '<div class="item-post-date"><em>'.__('Publicado el %s.', $a ).( ($a!==$m) ? ' '.__('Ultima Actualización on %s.', $m ) : null ).'</em></div>';	
 	}
 }
 
