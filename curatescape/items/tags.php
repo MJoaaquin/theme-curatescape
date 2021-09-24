@@ -6,7 +6,7 @@
 
 <div id="content">
 <article class="browse tags">		
-	<h2 class="query-header"><?php echo __('Tags: %s', total_records('Tags'));?></h2>
+	<h2 class="query-header"><?php echo __('Etiquetas: %s', total_records('Tags'));?></h2>
 
 	<div id="primary" class="browse">
 	<section id="tags">
