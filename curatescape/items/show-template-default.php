@@ -65,7 +65,7 @@ echo head(array(
 		<h2 hidden class="hidden"><?php echo __('Metadata');?></h2>
 		<?php echo mh_official_website();?>	
 		<?php echo mh_item_citation(); ?>
-		<?php echo function_exists('tours_for_item') ? tours_for_item($item->id, __('Related %s', mh_tour_label('plural'))) : null?>
+		<?php echo function_exists('tours_for_item') ? tours_for_item($item->id, __('%s relacionadas', mh_tour_label('plural'))) : null?>
 		<?php echo mh_subjects(); ?>
 		<?php echo mh_tags();?>			
 		<?php echo mh_related_links();?>

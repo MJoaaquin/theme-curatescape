@@ -1202,7 +1202,7 @@ function mh_the_byline($itemObj='item',$include_sponsor=false){
 ** Custom item citation
 */
 function mh_item_citation(){
-	return '<div class="item-citation"><h3>'.__('Cite this Page').'</h3><div>'.html_entity_decode(metadata('item', 'citation')).'</div></div>';
+	return '<div class="item-citation"><h3>'.__('Citar esta página').'</h3><div>'.html_entity_decode(metadata('item', 'citation')).'</div></div>';
 }
 
 /*
