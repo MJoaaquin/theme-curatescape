@@ -1,7 +1,7 @@
 <?php 
 $query = (isset($_GET['query']) ? htmlspecialchars($_GET['query']) : null);
 $searchRecordTypes = get_search_record_types();
-$title = __('Search %s', mh_item_label('plural'));
+$title = __('Buscar en la %s', mh_item_label('singular'));
 $bodyclass ='browse advanced-search'.(current_user() ? ' logged-in' : null);
 $maptype='none';
 
