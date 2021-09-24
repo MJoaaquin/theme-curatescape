@@ -1,6 +1,6 @@
 <?php 
 $query = (isset($_GET['query']) ? $_GET['query'] : null);
-$title = $query ? __('Search Results for "%s"', htmlspecialchars($query)) : __('Sitewide Search');
+$title = $query ? __('Search Results for "%s"', htmlspecialchars($query)) : __('Busquedas en todo el sitio');
 $bodyclass ='browse queryresults';
 $maptype='none';
 
