@@ -1281,7 +1281,7 @@ function mh_item_images($item,$index=0){
 		}		
 	}
 	if($html): ?>
-		<h3><?php echo __('Images');?></h3>
+		<h3><?php echo __('Imagenes');?></h3>
 		<figure id="item-photos" class="flex flex-wrap" itemscope itemtype="http://schema.org/ImageGallery">
 			<?php echo $html;?>
 		</figure>		
