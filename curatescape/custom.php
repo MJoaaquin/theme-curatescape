@@ -156,10 +156,10 @@ function mh_global_nav($nested=false){
 */
 function mh_item_browse_subnav(){
 	echo nav(array(
-			array('label'=>__('All') ,'uri'=> url('items/browse')),
-			array('label'=>__('Tags'), 'uri'=> url('items/tags')),
-			array('label'=>__('Sitewide Search'), 'uri'=> url('search')),
-			array('label'=>__('%s Search', mh_item_label('singular')), 'uri'=> url('items/search')),
+			array('label'=>__('Todas') ,'uri'=> url('items/browse')),
+			array('label'=>__('Etiquetas'), 'uri'=> url('items/tags')),
+			array('label'=>__('Busqueda en todo el sitio'), 'uri'=> url('search')),
+			array('label'=>__('Buscar en la %s', mh_item_label('singular')), 'uri'=> url('items/search')),
 		));
 }
 

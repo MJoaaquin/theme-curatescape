@@ -39,7 +39,7 @@ elseif ($query) {
 	$maptype='queryresults';
 }	
 else{
-	$title = __('All %s', mh_item_label('plural'));
+	$title = __('Todas las %s', mh_item_label('plural'));
 	$bodyclass .=' items stories';
 }	
 echo head(array('maptype'=>$maptype,'title'=>$title,'bodyid'=>'items','bodyclass'=>$bodyclass)); 
