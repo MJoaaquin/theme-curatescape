@@ -1832,7 +1832,7 @@ function mh_display_homepage_tours($num=5, $scope='featured'){
 				
 			$html .= '<article class="item-result '.(get_theme_option('fetch_tour_images') ? 'fetch-tour-image' : null).'" data-tour-id="'.tour('id').'">';
 			$html .= get_theme_option('fetch_tour_images') ? '<div class="tour-image-container"></div>' : null;
-			$html .= '<div><h3 class="home-tour-title"><a href="' . WEB_ROOT . '/tours/show/'. tour('id').'">' . tour('title').'</a></h3><span class="total">'.__('%s Locations',mh_tour_total_items($tour)).'</span></div>';
+			$html .= '<div><h3 class="home-tour-title"><a href="' . WEB_ROOT . '/tours/show/'. tour('id').'">' . tour('title').'</a></h3><span class="total">'.__('%s Ubicaciones',mh_tour_total_items($tour)).'</span></div>';
 			$html .= '</article>';
 			
 		}
